@@ -1,0 +1,201 @@
+{
+ "New Additions!": [
+  {
+   "handle": "luisa-abram-purus-river-81-dark-chocolate-copy",
+   "title": "Luisa Abram Wild Jurua 70% Dark",
+   "price": 18.0,
+   "price_min": 18.0,
+   "price_varies": false,
+   "available": false,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/luisaabramwildjurua.png?v=1790778713"
+   ],
+   "url": "/products/luisa-abram-purus-river-81-dark-chocolate-copy"
+  },
+  {
+   "handle": "i-am-italiano-halloween-salted-caramel",
+   "title": "I Am Italiano Halloween Salted Caramel",
+   "price": 15.0,
+   "price_min": 15.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/iamitalianosaltedcaramel.png?v=1790179846"
+   ],
+   "url": "/products/i-am-italiano-halloween-salted-caramel"
+  },
+  {
+   "handle": "awki-purity-dark-chocolate-coins",
+   "title": "Awki Purity Dark Chocolate Coins",
+   "price": 13.0,
+   "price_min": 13.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/awkipurity.png?v=1789752714"
+   ],
+   "url": "/products/awki-purity-dark-chocolate-coins"
+  },
+  {
+   "handle": "moka-cameroon-72",
+   "title": "Moka Cameroon 72%",
+   "price": 14.0,
+   "price_min": 14.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/mokacameroonnew.png?v=1789752135"
+   ],
+   "url": "/products/moka-cameroon-72"
+  },
+  {
+   "handle": "moka-cherry-tanzania-72",
+   "title": "Moka Cherry Tanzania 72%",
+   "price": 12.0,
+   "price_min": 12.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/mokacherry.png?v=1789752115"
+   ],
+   "url": "/products/moka-cherry-tanzania-72"
+  },
+  {
+   "handle": "ethereal-toffee-talk",
+   "title": "Ethereal Toffee Talk Oat Milk Chocolate",
+   "price": 13.0,
+   "price_min": 13.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/etherealtoffeetalk.png?v=1786025133"
+   ],
+   "url": "/products/ethereal-toffee-talk"
+  },
+  {
+   "handle": "ethereal-lemonade-stand-white",
+   "title": "Ethereal Lemonade Stand White",
+   "price": 13.0,
+   "price_min": 13.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/ethereallemonadestand.png?v=1786025203"
+   ],
+   "url": "/products/ethereal-lemonade-stand-white"
+  },
+  {
+   "handle": "markham-fitz-smoke-brulee",
+   "title": "Markham & Fitz Smoke & Brûlée 66% Dark",
+   "price": 15.0,
+   "price_min": 15.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/markhamfitzsmokebrulee.png?v=1785530924"
+   ],
+   "url": "/products/markham-fitz-smoke-brulee"
+  }
+ ],
+ "Yahara Made": [
+  {
+   "handle": "yahara-halloween-chocolate-copy",
+   "title": "Death Wish Chocolate Skulls",
+   "price": 5.0,
+   "price_min": 5.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-death-wish-chocolate-cayenne_S.jpg?v=1694635821",
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/products/4DC93968-3C0D-47B4-800B-F62112173936.jpg?v=1694635821"
+   ],
+   "url": "/products/yahara-halloween-chocolate-copy"
+  },
+  {
+   "handle": "yahara-death-wish-skulls",
+   "title": "Yahara Halloween Chocolate",
+   "price": 1.5,
+   "price_min": 1.5,
+   "price_varies": true,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/image_9d1a7232-19e4-46f1-8004-ef211441170f.jpg?v=1760556257",
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/image_11babb99-93b6-4a53-ae8f-9ebaecfc4fdf.jpg?v=1760556982"
+   ],
+   "url": "/products/yahara-death-wish-skulls"
+  },
+  {
+   "handle": "copy-of-yahara-chocolate-minis",
+   "title": "Yahara Chocolate Mini 5 pack",
+   "price": 7.0,
+   "price_min": 7.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/products/yahara-chocolate-mini-5-pack.jpg?v=1659391384"
+   ],
+   "url": "/products/copy-of-yahara-chocolate-minis"
+  },
+  {
+   "handle": "yahara-truffles",
+   "title": "Yahara Truffles",
+   "price": 2.5,
+   "price_min": 2.5,
+   "price_varies": true,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-truffles_S.jpg?v=1738940286"
+   ],
+   "url": "/products/yahara-truffles"
+  },
+  {
+   "handle": "yahara-chocolate-river-milk-45",
+   "title": "Yahara Milk Chocolate",
+   "price": 10.0,
+   "price_min": 10.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-wisconsin-milk-chocolate_S.jpg?v=1706559995"
+   ],
+   "url": "/products/yahara-chocolate-river-milk-45"
+  },
+  {
+   "handle": "yahara-chocolate-toffee-milk",
+   "title": "Yahara Milk Butter Toffee",
+   "price": 10.0,
+   "price_min": 10.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-milk-butter-toffee-chocolate_S.jpg?v=1706560260"
+   ],
+   "url": "/products/yahara-chocolate-toffee-milk"
+  },
+  {
+   "handle": "yahara-door-county-cherry-dark-70",
+   "title": "Yahara Door County Cherry Dark 70%",
+   "price": 10.0,
+   "price_min": 10.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-door-county-cherry-dark-chocolate_S.jpg?v=1706560048",
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/products/yahara-chocolate-dark-cherry.jpg?v=1706560048"
+   ],
+   "url": "/products/yahara-door-county-cherry-dark-70"
+  },
+  {
+   "handle": "yahara-chocolate-dark-70",
+   "title": "Yahara Dark Chocolate 70%",
+   "price": 10.0,
+   "price_min": 10.0,
+   "price_varies": false,
+   "available": true,
+   "images": [
+    "//cdn.shopify.com/s/files/1/0458/4092/4836/files/yahara-wisconsin-dark-chocolate_S.jpg?v=1706560014"
+   ],
+   "url": "/products/yahara-chocolate-dark-70"
+  }
+ ]
+}

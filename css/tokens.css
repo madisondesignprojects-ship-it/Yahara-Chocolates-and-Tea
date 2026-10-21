@@ -1,0 +1,64 @@
+/* Yahara Chocolate & Tea — design tokens (build script §6). Same names/values are reused in the OS 2.0 theme's assets/base.css. */
+@font-face{font-family:"Poppins";font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/poppins-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:500;font-style:normal;font-display:swap;src:url(../fonts/poppins-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:600;font-style:normal;font-display:swap;src:url(../fonts/poppins-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:700;font-style:normal;font-display:swap;src:url(../fonts/poppins-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Roboto";font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/roboto-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Roboto";font-weight:500;font-style:normal;font-display:swap;src:url(../fonts/roboto-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Roboto";font-weight:700;font-style:normal;font-display:swap;src:url(../fonts/roboto-latin-700-normal.woff2) format("woff2")}
+
+:root{
+  /* Brand (§6.1, exact live values) */
+  --choc-brown:#6B1F0D; --choc-brown-border:#7A3525; --choc-brown-btn-border:#894C3D;
+  --salmon:#E89B82; --logo-maroon:#85151C; --logo-salmon:#F68F77; --logo-salmon-2:#EEA892; --logo-cream:#E4DECB;
+  --red:#CB321E; --red-dark:#C4301C; --gold:#FEC61F; --butter:#FFE093; --forest:#1D4531;
+  --green-new:#049B6E; --green-text:#037A57; --purple-soon:#7A34D6;
+  /* Neutrals */
+  --bg:#F0F0F0; --bg-info:#F6F6F6; --white:#FFFFFF; --ink:#000000; --body:#2B2B2B; --subtext:#4A4A4A;
+  --border:#DCDCDC; --card-border:#E6E6E6; --dark-card:#232323; --soldout:#6B6B6B; --search-field:#EDEDED;
+  /* Tints (schemes 8–12) */
+  --rose:#E3D3CF; --sky:#DBE5EB; --sage:#DCE5DD; --sand:#EBE5DE; --moss:#CFDCC9;
+  --focus:rgb(11 97 205);
+
+  /* Type (§6.2) — root 10px, mobile first */
+  --font-heading:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-body:"Roboto",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs-hd1:4.4rem; --fs-h1:3.2rem; --fs-h2:2.6rem; --fs-h3:2.2rem;
+  --fs-body:1.7rem; --fs-small:1.4rem; --fs-eyebrow:1.3rem;
+  --lh-body:1.6; --lh-heading:1.15;
+
+  /* Space & shape (§6.3/6.4) */
+  --page-width:1440px; --gutter:16px; --gap:12px;
+  --radius-btn:10rem; --radius-textarea:1rem; --radius-block:.8rem; --radius-sm:.5rem;
+  --radius-card:1rem; --radius-card-inner:.6rem; --radius-badge:4rem;
+
+  /* Motion (§6.5, measured live values) */
+  --animation-long:.7s cubic-bezier(.3,1,.3,1);
+  --animation-default:.5s cubic-bezier(.3,1,.3,1);
+  --animation-nav:.5s cubic-bezier(.6,0,.4,1);
+  --animation-fast:.3s cubic-bezier(.7,0,.3,1);
+  --animation-button:.4s ease;
+  --duration-default:200ms; --duration-image:1000ms;
+  --ease-reveal:cubic-bezier(0,0,.3,1);
+  --ease-curve:cubic-bezier(.3,1,.3,1);
+  --ease-drawer:cubic-bezier(.7,0,.2,1);
+  --mover-duration:2s;
+}
+@media (min-width:750px){:root{--gutter:24px}}
+@media (min-width:990px){
+  :root{--fs-hd1:7.4rem;--fs-h1:4rem;--fs-h2:3.2rem;--fs-h3:2.8rem;--fs-body:1.8rem;--fs-small:1.5rem;--fs-eyebrow:1.4rem;--gutter:32px;--gap:20px;--radius-block:1rem}
+}
+
+/* Color schemes (§6.1 — keep all 15; same values as live) */
+.scheme-1{--c-bg:var(--bg);--c-fg:var(--ink);--c-body:var(--body);--c-sub:var(--subtext);--c-btn:var(--ink);--c-btn-text:#fff;--c-border:var(--border)}
+.scheme-inverse{--c-bg:#000;--c-fg:#fff;--c-body:rgba(255,255,255,.92);--c-sub:rgba(255,255,255,.75);--c-btn:#fff;--c-btn-text:#000;--c-border:rgba(255,255,255,.2)}
+.scheme-info{--c-bg:var(--bg-info);--c-fg:var(--ink);--c-body:var(--body);--c-sub:var(--subtext);--c-btn:var(--ink);--c-btn-text:#fff;--c-border:var(--border)}
+.scheme-2{--c-bg:#fff;--c-fg:var(--ink);--c-body:var(--body);--c-sub:var(--subtext);--c-btn:var(--ink);--c-btn-text:#fff;--c-border:var(--border)}
+.scheme-3{--c-bg:var(--choc-brown);--c-fg:#fff;--c-body:rgba(255,255,255,.92);--c-sub:rgba(255,255,255,.8);--c-btn:#fff;--c-btn-text:var(--choc-brown);--c-border:var(--choc-brown-border);--c-accent:var(--salmon)}
+.scheme-4{--c-bg:var(--forest);--c-fg:#fff;--c-body:rgba(255,255,255,.92);--c-sub:rgba(255,255,255,.8);--c-btn:var(--gold);--c-btn-text:#000;--c-border:rgba(255,255,255,.2)}
+.scheme-6{--c-bg:var(--dark-card);--c-fg:#fff;--c-body:rgba(255,255,255,.92);--c-sub:rgba(255,255,255,.75);--c-btn:#fff;--c-btn-text:#000;--c-border:rgba(255,255,255,.15)}
+.scheme-7{--c-bg:var(--red);--c-fg:#fff;--c-body:#fff;--c-sub:rgba(255,255,255,.9);--c-btn:#fff;--c-btn-text:var(--red);--c-border:rgba(255,255,255,.25)}
+.scheme-8{--c-bg:var(--rose)} .scheme-9{--c-bg:var(--sky)} .scheme-10{--c-bg:var(--sage)} .scheme-11{--c-bg:var(--sand)} .scheme-12{--c-bg:var(--moss)}
+.scheme-13{--c-bg:var(--gold);--c-fg:#000;--c-btn:var(--red-dark);--c-btn-text:#fff}
+.scheme-14{--c-bg:var(--butter);--c-fg:#000;--c-btn:var(--red-dark);--c-btn-text:#fff}
+[class*="scheme-"]{background-color:var(--c-bg);color:var(--c-body,var(--body))}
